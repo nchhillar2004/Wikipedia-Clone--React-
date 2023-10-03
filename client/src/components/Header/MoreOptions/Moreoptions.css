@@ -1,0 +1,29 @@
+.MuiList-root{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-size: 14px !important;
+}
+
+.MuiList-root a{
+    margin-bottom: 6px !important;
+}
+
+.MuiList-root hr{
+    margin-top: 1px;
+    margin-bottom: 6px;
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+    box-shadow: none !important;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px !important;
+    margin-right: 10px !important;
+}
+
+.card{
+    background-color: whitesmoke;
+    width: 200px;
+    padding: 8px;
+}

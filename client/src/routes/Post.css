@@ -1,0 +1,9 @@
+.create-post-container form{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+form >input{
+    margin-bottom: 10px;
+}

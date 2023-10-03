@@ -1,0 +1,134 @@
+.header{
+    height: 10vh;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 185px;
+    margin-left: 8px;
+}
+
+.search-form{
+    display: flex;
+    align-items: center;
+}
+
+.search-form input{
+    display: flex;
+    padding-top: 5px;
+    border-width: 1px;
+    border: 1px solid #a2a9b1;
+    border-style: solid;
+    padding-bottom: 5px;
+    line-height: 1.4285714;
+    font-size: 14px;
+    padding-left: 5px;
+    flex: 1;
+    width: 350px;
+    height: 32px;
+}
+
+.search-form input:enabled:focus{
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+    outline: 1px solid transparent;
+}
+
+.search-form button{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    color: #202122;
+    border: 1px solid;
+    height: 32px;
+    padding: 0px 11px;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: -1px;
+    border-color: #a2a9b1;
+    
+}
+
+.input-group mb-3{
+    margin-bottom: 0px !important;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.input-group-text{
+    height: 32px;
+    border: 1px solid #a2a9b1;
+}
+
+.mb-3 {
+    margin-bottom: 0rem!important;
+}
+
+.right li{
+    margin-right: 5px;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.right  ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px !important;
+}
+
+@media (max-width: 600px) {
+    .header{
+        height: 8vh;
+        background-color: whitesmoke;
+        padding: 0px;
+        justify-content: space-between;
+    }
+    .right{
+        display: none;
+    }
+    .logo{
+        width: 100px;
+        margin-left: 2px;
+    }
+    .search-form button, 
+    .search-form input,
+    .input-group-text{
+        height: 24px;
+    }
+    .input-group-text{
+        display: none;
+    }
+    .search-form button{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .search-form input{
+        width: 120px;
+        border-bottom-left-radius: 6px !important;
+        border-top-left-radius: 6px !important;
+    }
+    .card{
+        width: 180px;
+        height: fit-content;
+    }
+    .card p{
+        margin-bottom: 0px;
+    }
+    .MuiList-root a {
+        margin-bottom: 5px !important;
+    }
+}

@@ -1,0 +1,45 @@
+.route-view{
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+}
+
+.heading{
+    width: 100%;
+    border-top: 1.8px solid rgb(207, 207, 207);
+    border-bottom: 1.8px solid rgb(207, 207, 207);
+}
+
+.heading h1{
+    font-size: 2rem !important;
+}
+
+.content{
+    font-size: 14px;
+}
+
+.right-side-route-view{
+    height: fit-content;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.content-combo{
+    display: flex;
+    font-size: 14px;
+}
+
+.content-card-container{
+    margin-left: 6px;
+}
+
+@media (max-width : 600px) {
+    .content-combo{
+        flex-direction: column-reverse;
+    }
+    .content-combo hr{
+        display: none;
+    }
+    .content-card-container{
+        display: flex;
+        justify-content: center;
+    }
+}

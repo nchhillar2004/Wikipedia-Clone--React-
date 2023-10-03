@@ -1,0 +1,29 @@
+.footer{
+    height: auto;
+    padding: 30px 40px;
+}
+
+.footer-content-container{
+    width: 100%;
+    font-size: 12px;
+}
+
+nav >ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0rem !important;
+}
+
+ul >li{
+    margin-right: 16px;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    nav >ul{
+        flex-wrap: wrap;
+    }
+}

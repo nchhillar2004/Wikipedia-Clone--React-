@@ -1,0 +1,17 @@
+.main-body{
+    padding-left: 11em;
+    padding-right: 11em;
+    min-height: 50vh;
+}
+
+.empty-space{
+    height: 30px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .main-body{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
